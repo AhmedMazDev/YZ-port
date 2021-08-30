@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    display: flex;
+    width: 50%;
+    margin-left: 20rem;
+    justify-content: space-between;
+    min-height: 10vh;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-self: flex-start;
+}
+
+.logo h1{
+    padding-left: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex: 2;
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+
+.blob{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 40%;
+}
+
+main{
+    min-height: 90vh;
+    padding-left: 20rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+main h2{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+main h1{
+    font-size: 5rem;
+    padding: 1rem 0rem;
+    color: #262A53;
+}
+
+main h6{
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #828282;
+}
+
+main button{
+    margin : 8rem 0rem ;
+    padding: 1rem 4rem;
+    color: white;
+    background: linear-gradient(90deg, #262A53 0%, #7B759D 50.44%, #628395 100%);
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: #E7E7E7;
+    padding: 3rem 3rem;
+    flex: 1;
+    text-align: center;
+}
+
+.card h3{
+    font-size: 1.3rem;
+    color: #828282;
+}
+
+.card h2{
+    color: #262A53;
+}
+
+.card2{
+    margin: 0 2rem;
+}
